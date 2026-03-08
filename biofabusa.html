@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioFabUSA - ARMI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=outfit@300,400,500,600,700&f[]=general-sans@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- SWITCHER -->
+<div class="switcher">
+  <span class="switcher-label">Explore</span>
+  <button class="switcher-btn active" onclick="show('forge')">Millyard Forge</button>
+  <button class="switcher-btn" onclick="show('armi-mock')">ARMI</button>
+  <button class="switcher-btn" onclick="show('signal')">Build Signal</button>
+</div>
+
+<!-- ============================================
+     MOCKUP 1: MILLYARD FORGE
+     ============================================ -->
+<div class="mockup forge active" id="forge">
+  <nav class="f-nav">
+    <a href="index.html" class="f-logo">ARMI</a>
+    <div class="f-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html" class="dd-active">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Light</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('forge',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="f-join">Join Us</a>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-label">BioFabUSA</div>
+    <h1>Manufacturing the ReGen Revolution</h1>
+    <p class="page-sub">BioFabUSA is the advanced manufacturing platform at the heart of ARMI, where therapies move from discovery to scalable production. If you're developing a cell, tissue, or organ-based therapy, here is where discovery becomes real-world ready.</p>
+    <a href="#" class="page-cta">Watch The Video</a>
+  </div>
+
+  <hr class="f-rule-thick">
+
+  <!-- Built To Deliver -->
+  <div class="why-section">
+    <h2>Built To Deliver</h2>
+    <p>Scale for cell, tissue, and organ-based therapies.</p>
+    <p class="why-bold">BioFabUSA provides the GMP facilities, automation, and expertise to bring regenerative therapies to scale. Fast. Safe. Repeatable production. Without reinventing the system.</p>
+  </div>
+
+  <hr class="f-rule">
+
+  <!-- What's Inside -->
+  <div class="feat-grid-header">
+    <h2>What's Inside BioFabUSA</h2>
+    <p>A full-stack manufacturing environment for building, scaling, and testing regenerative therapies.</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat-item"><div class="f-si-num">01</div><h4>GMP Cleanrooms</h4><p>Class 10,000 / ISO 7 suites with validated HVAC and environmental control systems.</p></div>
+    <div class="feat-item"><div class="f-si-num">02</div><h4>Automated Tissue Foundry</h4><p>Closed-system workflows for cell and tissue production, ready for clinical scale-up.</p></div>
+    <div class="feat-item"><div class="f-si-num">03</div><h4>Bioreactors &amp; Monitoring</h4><p>Real-time, non-destructive analytics integrated into process control systems.</p></div>
+    <div class="feat-item"><div class="f-si-num">04</div><h4>Modular, Scalable Platforms</h4><p>Adaptable infrastructure for multiple tissue types and therapeutic formats.</p></div>
+    <div class="feat-item"><div class="f-si-num">05</div><h4>Standardized Quality Systems</h4><p>Built-in QA/QC and batch tracking designed for repeatability and regulatory alignment.</p></div>
+    <div class="feat-item"><div class="f-si-num">06</div><h4>On-Site Regulatory Support</h4><p>FDA-experienced teams to guide you through IND prep, tech transfer, and process validation.</p></div>
+  </div>
+
+  <!-- Who It's For -->
+  <div class="feat-grid-header">
+    <h2>Who It's For</h2>
+    <p>BioFabUSA serves teams ready to build what comes next.</p>
+  </div>
+  <div class="audience-grid">
+    <a href="founders.html" class="audience-card">
+      <div class="aud-icon">&#9881;</div>
+      <h4>Founders</h4>
+      <p>Building cell, tissue, or organ-based therapies.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="pharma.html" class="audience-card">
+      <div class="aud-icon">&#9650;</div>
+      <h4>Biotechs</h4>
+      <p>Expanding capacity or partnering on shared infrastructure.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="investors.html" class="audience-card">
+      <div class="aud-icon">$</div>
+      <h4>Investors</h4>
+      <p>Looking to back companies building at scale.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="government.html" class="audience-card">
+      <div class="aud-icon">&#9733;</div>
+      <h4>Government</h4>
+      <p>Advancing readiness and access.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+  </div>
+
+  <!-- ReGen Valley -->
+  <div class="why-section">
+    <h2>Located in the Heart of ReGen Valley</h2>
+    <p class="why-bold">2M+ sq ft Innovation Corridor built for industrial-scale biomanufacturing in Manchester, NH. Home of ARMI, DEKA, and BioFabUSA.</p>
+  </div>
+
+  <hr class="f-rule">
+
+  <!-- Quote -->
+  <div class="f-quote">
+    <blockquote>"We're not here to imagine the future. We're here to manufacture it."</blockquote>
+    <cite>Jen McDonald, COO, ARMI BioFabUSA</cite>
+  </div>
+
+  <hr class="f-rule">
+
+  <!-- Spotlight -->
+  <div class="spotlight-section">
+    <div class="spot-header">
+      <h2>Meet the Companies Scaling with ARMI</h2>
+      <p>Find enabling technologies, scalable platforms, and early-stage therapies.</p>
+    </div>
+    <div class="spot-grid">
+      <div class="spot-card" style="background-image:url(img/agnos.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Agnos Therapeutics</h3>
+        <p>Restoring Sight</p>
+      </div>
+      <div class="spot-card" style="background-image:url(img/luba.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Reconstruct Bio</h3>
+        <p>Scalable Medical Solutions</p>
+      </div>
+    </div>
+    <div class="spot-see-more"><a href="#">See More &rarr;</a></div>
+  </div>
+
+  <!-- Promo: Tour -->
+  <div class="promo-banner">
+    <div class="promo-banner-inner" style="background-image:url(img/summit.jpg)">
+      <span class="pb-tag">Visit Us</span>
+      <a href="#" class="pb-action">Schedule &rarr;</a>
+      <h3>Schedule a Tour or Briefing</h3>
+      <p>Whether you're ready to scale, partner, or just understand what's possible, get a curated walk-through of BioFabUSA's systems, platforms, and team.</p>
+      <a href="#" class="pb-cta">Schedule A Tour &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Email Signup -->
+  <div class="email-signup">
+    <div class="es-label">Join our mailing list</div>
+    <h3>Get the stories and updates from the ARMI Community</h3>
+    <form onsubmit="return false">
+      <input type="email" placeholder="Email Address">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Action Cards -->
+  <div class="action-cards">
+    <div class="action-cards-header">
+      <h2>Build What's Next</h2>
+    </div>
+    <div class="action-grid">
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9881;</div>
+        <p>Apply to Manufacture at BioFabUSA</p>
+        <strong>Apply Now &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Become an ARMI Member</p>
+        <strong>Join ARMI &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9650;</div>
+        <p>Schedule a Tour or ReGen Briefing</p>
+        <strong>Schedule &rarr;</strong>
+      </a>
+    </div>
+  </div>
+
+  <div class="closing-line">When you're ready to scale, we're ready for you.</div>
+
+  <div class="f-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <div class="f-footer">
+    <div class="f-footer-brand">ARMI<p>From Cell to Scale.</p></div>
+    <div class="f-footer-col"><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+    <div class="f-footer-col"><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+    <div class="f-footer-col"><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+    <div class="f-footer-col"><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 2: ARMI
+     ============================================ -->
+<div class="mockup armi-m" id="armi-mock">
+  <nav class="a-nav">
+    <a href="index.html" class="a-logo">ARMI</a>
+    <div class="a-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html" class="dd-active">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('armi-mock',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="a-join">Join Us</a>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-label">BioFabUSA</div>
+    <h1>Manufacturing the ReGen Revolution</h1>
+    <p class="page-sub">BioFabUSA is the advanced manufacturing platform at the heart of ARMI, where therapies move from discovery to scalable production. If you're developing a cell, tissue, or organ-based therapy, here is where discovery becomes real-world ready.</p>
+    <a href="#" class="page-cta">Watch The Video</a>
+  </div>
+
+  <div class="a-divider"><hr></div>
+
+  <div class="why-section">
+    <h2>Built To Deliver</h2>
+    <p>Scale for cell, tissue, and organ-based therapies.</p>
+    <p class="why-bold">BioFabUSA provides the GMP facilities, automation, and expertise to bring regenerative therapies to scale. Fast. Safe. Repeatable production. Without reinventing the system.</p>
+  </div>
+
+  <div class="feat-grid-header">
+    <h2>What's Inside BioFabUSA</h2>
+    <p>A full-stack manufacturing environment for building, scaling, and testing regenerative therapies.</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat-item"><h4>GMP Cleanrooms</h4><p>Class 10,000 / ISO 7 suites with validated HVAC and environmental control systems.</p></div>
+    <div class="feat-item"><h4>Automated Tissue Foundry</h4><p>Closed-system workflows for cell and tissue production, ready for clinical scale-up.</p></div>
+    <div class="feat-item"><h4>Bioreactors &amp; Monitoring</h4><p>Real-time, non-destructive analytics integrated into process control systems.</p></div>
+    <div class="feat-item"><h4>Modular, Scalable Platforms</h4><p>Adaptable infrastructure for multiple tissue types and therapeutic formats.</p></div>
+    <div class="feat-item"><h4>Standardized Quality Systems</h4><p>Built-in QA/QC and batch tracking designed for repeatability and regulatory alignment.</p></div>
+    <div class="feat-item"><h4>On-Site Regulatory Support</h4><p>FDA-experienced teams to guide you through IND prep, tech transfer, and process validation.</p></div>
+  </div>
+
+  <div class="feat-grid-header">
+    <h2>Who It's For</h2>
+    <p>BioFabUSA serves teams ready to build what comes next.</p>
+  </div>
+  <div class="audience-grid">
+    <a href="founders.html" class="audience-card">
+      <div class="aud-icon">&#9881;</div>
+      <h4>Founders</h4>
+      <p>Building cell, tissue, or organ-based therapies.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="pharma.html" class="audience-card">
+      <div class="aud-icon">&#9650;</div>
+      <h4>Biotechs</h4>
+      <p>Expanding capacity or partnering on shared infrastructure.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="investors.html" class="audience-card">
+      <div class="aud-icon">$</div>
+      <h4>Investors</h4>
+      <p>Looking to back companies building at scale.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="government.html" class="audience-card">
+      <div class="aud-icon">&#9733;</div>
+      <h4>Government</h4>
+      <p>Advancing readiness and access.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+  </div>
+
+  <div class="why-section">
+    <h2>Located in the Heart of ReGen Valley</h2>
+    <p class="why-bold">2M+ sq ft Innovation Corridor built for industrial-scale biomanufacturing in Manchester, NH. Home of ARMI, DEKA, and BioFabUSA.</p>
+  </div>
+
+  <div class="a-quote">
+    <blockquote>"We're not here to imagine the future. We're here to manufacture it."</blockquote>
+    <cite>Jen McDonald, COO, ARMI BioFabUSA</cite>
+  </div>
+
+  <div class="spotlight-section">
+    <div class="spot-header">
+      <h2>Meet the Companies Scaling with ARMI</h2>
+      <p>Find enabling technologies, scalable platforms, and early-stage therapies.</p>
+    </div>
+    <div class="spot-grid">
+      <div class="spot-card" style="background-image:url(img/agnos.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Agnos Therapeutics</h3>
+        <p>Restoring Sight</p>
+      </div>
+      <div class="spot-card" style="background-image:url(img/luba.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Reconstruct Bio</h3>
+        <p>Scalable Medical Solutions</p>
+      </div>
+    </div>
+    <div class="spot-see-more"><a href="#">See More &rarr;</a></div>
+  </div>
+
+  <div class="promo-banner">
+    <div class="promo-banner-inner" style="background-image:url(img/summit.jpg)">
+      <span class="pb-tag">Visit Us</span>
+      <a href="#" class="pb-action">Schedule &rarr;</a>
+      <h3>Schedule a Tour or Briefing</h3>
+      <p>Whether you're ready to scale, partner, or just understand what's possible, get a curated walk-through of BioFabUSA's systems, platforms, and team.</p>
+      <a href="#" class="pb-cta">Schedule A Tour &rarr;</a>
+    </div>
+  </div>
+
+  <div class="email-signup">
+    <div class="es-label">Join our mailing list</div>
+    <h3>Get the stories and updates from the ARMI Community</h3>
+    <form onsubmit="return false">
+      <input type="email" placeholder="Email Address">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="action-cards">
+    <div class="action-cards-header">
+      <h2>Build What's Next</h2>
+    </div>
+    <div class="action-grid">
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9881;</div>
+        <p>Apply to Manufacture at BioFabUSA</p>
+        <strong>Apply Now &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Become an ARMI Member</p>
+        <strong>Join ARMI &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9650;</div>
+        <p>Schedule a Tour or ReGen Briefing</p>
+        <strong>Schedule &rarr;</strong>
+      </a>
+    </div>
+  </div>
+
+  <div class="closing-line">When you're ready to scale, we're ready for you.</div>
+
+  <div style="padding:0 48px">
+    <div class="a-cta-section">
+      <h3>When you're ready to scale, we're ready for you.</h3>
+      <p>Every founder's path is unique. We'll help you chart yours.</p>
+      <a href="#">Schedule an Intro Call</a>
+    </div>
+  </div>
+
+  <div class="a-footer">
+    <div class="a-footer-inner">
+      <div class="a-footer-brand"><div class="a-f-logo">ARMI</div><div class="a-f-tag">From Cell to Scale.</div></div>
+      <div><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+    <div class="a-footer-bottom"><span>ARMI. From Cell to Scale.</span><span>Manchester, NH</span></div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 3: BUILD SIGNAL
+     ============================================ -->
+<div class="mockup signal" id="signal">
+  <nav class="s-nav">
+    <a href="index.html" class="s-logo">ARM<span>I</span></a>
+    <div class="s-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html" class="dd-active">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('signal',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="s-join">Join Us</a>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-label">BioFabUSA</div>
+    <h1>Manufacturing the ReGen Revolution</h1>
+    <p class="page-sub">BioFabUSA is the advanced manufacturing platform at the heart of ARMI, where therapies move from discovery to scalable production. If you're developing a cell, tissue, or organ-based therapy, here is where discovery becomes real-world ready.</p>
+    <a href="#" class="page-cta">Watch The Video</a>
+  </div>
+
+  <div class="why-section">
+    <h2>Built To Deliver</h2>
+    <p>Scale for cell, tissue, and organ-based therapies.</p>
+    <p class="why-bold">BioFabUSA provides the GMP facilities, automation, and expertise to bring regenerative therapies to scale. Fast. Safe. Repeatable production. Without reinventing the system.</p>
+  </div>
+
+  <div class="feat-grid-header">
+    <h2>What's Inside BioFabUSA</h2>
+    <p>A full-stack manufacturing environment for building, scaling, and testing regenerative therapies.</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat-item"><div class="feat-num">SYS.01</div><h4>GMP Cleanrooms</h4><p>Class 10,000 / ISO 7 suites with validated HVAC and environmental control systems.</p></div>
+    <div class="feat-item"><div class="feat-num">SYS.02</div><h4>Automated Tissue Foundry</h4><p>Closed-system workflows for cell and tissue production, ready for clinical scale-up.</p></div>
+    <div class="feat-item"><div class="feat-num">SYS.03</div><h4>Bioreactors &amp; Monitoring</h4><p>Real-time, non-destructive analytics integrated into process control systems.</p></div>
+    <div class="feat-item"><div class="feat-num">SYS.04</div><h4>Modular, Scalable Platforms</h4><p>Adaptable infrastructure for multiple tissue types and therapeutic formats.</p></div>
+    <div class="feat-item"><div class="feat-num">SYS.05</div><h4>Standardized Quality Systems</h4><p>Built-in QA/QC and batch tracking designed for repeatability and regulatory alignment.</p></div>
+    <div class="feat-item"><div class="feat-num">SYS.06</div><h4>On-Site Regulatory Support</h4><p>FDA-experienced teams to guide you through IND prep, tech transfer, and process validation.</p></div>
+  </div>
+
+  <div class="feat-grid-header">
+    <h2>Who It's For</h2>
+    <p>BioFabUSA serves teams ready to build what comes next.</p>
+  </div>
+  <div class="audience-grid">
+    <a href="founders.html" class="audience-card">
+      <div class="aud-icon">&#9679;</div>
+      <h4>Founders</h4>
+      <p>Building cell, tissue, or organ-based therapies.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="pharma.html" class="audience-card">
+      <div class="aud-icon">&#9679;</div>
+      <h4>Biotechs</h4>
+      <p>Expanding capacity or partnering on shared infrastructure.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="investors.html" class="audience-card">
+      <div class="aud-icon">&#9679;</div>
+      <h4>Investors</h4>
+      <p>Looking to back companies building at scale.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="government.html" class="audience-card">
+      <div class="aud-icon">&#9679;</div>
+      <h4>Government</h4>
+      <p>Advancing readiness and access.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+  </div>
+
+  <div class="why-section">
+    <h2>Located in the Heart of ReGen Valley</h2>
+    <p class="why-bold">2M+ sq ft Innovation Corridor built for industrial-scale biomanufacturing in Manchester, NH. Home of ARMI, DEKA, and BioFabUSA.</p>
+  </div>
+
+  <div class="s-quote">
+    <blockquote>"We're not here to imagine the future. We're here to manufacture it."</blockquote>
+    <cite>Jen McDonald, COO, ARMI BioFabUSA</cite>
+  </div>
+
+  <div class="spotlight-section">
+    <div class="spot-header">
+      <h2>Meet the Companies Scaling with ARMI</h2>
+      <p>Find enabling technologies, scalable platforms, and early-stage therapies.</p>
+    </div>
+    <div class="spot-grid">
+      <div class="spot-card" style="background-image:url(img/agnos.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Agnos Therapeutics</h3>
+        <p>Restoring Sight</p>
+      </div>
+      <div class="spot-card" style="background-image:url(img/luba.jpg)">
+        <span class="spot-tag">Spotlight</span>
+        <h3>Reconstruct Bio</h3>
+        <p>Scalable Medical Solutions</p>
+      </div>
+    </div>
+    <div class="spot-see-more"><a href="#">See More &rarr;</a></div>
+  </div>
+
+  <div class="promo-banner">
+    <div class="promo-banner-inner" style="background-image:url(img/summit.jpg)">
+      <span class="pb-tag">Visit Us</span>
+      <a href="#" class="pb-action">Schedule &rarr;</a>
+      <h3>Schedule a Tour or Briefing</h3>
+      <p>Whether you're ready to scale, partner, or just understand what's possible, get a curated walk-through of BioFabUSA's systems, platforms, and team.</p>
+      <a href="#" class="pb-cta">Schedule A Tour &rarr;</a>
+    </div>
+  </div>
+
+  <div class="email-signup">
+    <div class="es-label">Join our mailing list</div>
+    <h3>Get the stories and updates from the ARMI Community</h3>
+    <form onsubmit="return false">
+      <input type="email" placeholder="Email Address">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="action-cards">
+    <div class="action-cards-header">
+      <h2>Build What's Next</h2>
+    </div>
+    <div class="action-grid">
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Apply to Manufacture at BioFabUSA</p>
+        <strong>Apply Now &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Become an ARMI Member</p>
+        <strong>Join ARMI &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Schedule a Tour or ReGen Briefing</p>
+        <strong>Schedule &rarr;</strong>
+      </a>
+    </div>
+  </div>
+
+  <div class="closing-line">When you're ready to scale, we're ready for you.</div>
+
+  <div class="s-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <p>Every founder's path is unique. We'll help you chart yours.</p>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <div class="s-footer">
+    <div class="s-footer-inner">
+      <div class="s-footer-brand">ARM<span>I</span><p>From Cell to Scale. Manchester, NH.</p></div>
+      <div><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARMI - Homepage Explorations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=outfit@300,400,500,600,700&f[]=general-sans@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- SWITCHER -->
+<div class="switcher">
+  <span class="switcher-label">Explore</span>
+  <button class="switcher-btn active" onclick="show('forge')">Millyard Forge</button>
+  <button class="switcher-btn" onclick="show('armi-mock')">ARMI</button>
+  <button class="switcher-btn" onclick="show('signal')">Build Signal</button>
+</div>
+
+<!-- ============================================
+     MOCKUP 1: MILLYARD FORGE
+     Industrial Editorial
+     ============================================ -->
+<div class="mockup forge" id="forge">
+  <nav class="f-nav">
+    <div class="f-logo">ARMI</div>
+    <div class="f-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Light</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('forge',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="f-join">Join Us</a>
+  </nav>
+
+  <div class="f-hero">
+    <div class="f-hero-left">
+      <h1>Where Regenerative Medicine Stops Waiting and <em>Starts Scaling</em></h1>
+    </div>
+    <div class="f-hero-right">
+      <p>Breakthroughs don't die in the lab because they don't work. They die because there's nowhere to build them. We're changing that.</p>
+      <div class="f-cta-row">
+        <a href="#" class="f-cta-primary">Join the ReGen Revolution</a>
+        <a href="#" class="f-cta-ghost">Watch the Video</a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="f-rule-thick">
+
+  <div class="f-stats">
+    <div class="f-stat"><div class="f-stat-num">200+</div><div class="f-stat-label">Member Organizations</div></div>
+    <div class="f-stat"><div class="f-stat-num">$2B+</div><div class="f-stat-label">Raised by Members</div></div>
+    <div class="f-stat"><div class="f-stat-num">$44M</div><div class="f-stat-label">EDA Tech Hub</div></div>
+    <div class="f-stat"><div class="f-stat-num">2M+</div><div class="f-stat-label">Sq Ft Innovation Corridor</div></div>
+  </div>
+
+  <div class="f-cards">
+    <div class="f-cards-label">From the Field</div>
+
+    <!-- Wide card 1: Agnos -->
+    <div class="fc-wide">
+      <div class="fc-wide-img" style="background-image:url(img/agnos.jpg)"></div>
+      <div class="fc-wide-text">
+        <div class="fc-num">Spotlight 01</div>
+        <h3>Agnos Therapeutics. Restoring Sight.</h3>
+        <p>Scaling autologous cell therapy for retinal degeneration. From lab proof to manufacturing reality inside ARMI's BioFabUSA.</p>
+        <a href="#">Read the Story &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Wide card 2: Reimbursement (flipped) -->
+    <div class="fc-wide fc-flip">
+      <div class="fc-wide-img" style="background-image:url(img/reimburse.jpg)"></div>
+      <div class="fc-wide-text">
+        <div class="fc-num">Perspective</div>
+        <h3>Navigating the Reimbursement Bottleneck.</h3>
+        <p>Why payment strategy can't wait until after your IND. The path to patients runs through payers.</p>
+        <a href="#">Read &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 3-col row: Summit, Neural, Podcast -->
+    <div class="fc-row3">
+      <div class="fc-card" style="background-image:url(img/summit.jpg)">
+        <div class="fc-card-text">
+          <div class="fc-label">Events</div>
+          <h4>3rd Annual BioFab Investment Summit</h4>
+          <p>Nov 4-5 &middot; Manchester, NH</p>
+        </div>
+      </div>
+      <div class="fc-card" style="background-image:url(img/neural.jpg)">
+        <div class="fc-card-text">
+          <div class="fc-label">News</div>
+          <h4>Cellular Therapy Improves Survival in ALS Patients</h4>
+          <p>NeuroGenesis Research Team</p>
+        </div>
+      </div>
+      <div class="fc-card" style="background-color:#1A1714">
+        <div class="fc-card-text" style="bottom:auto;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+          <div class="fc-label">ReGen Podcast</div>
+          <h4>From Prototype to Product</h4>
+          <p>Inside BioFabUSA's manufacturing floor</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Founders -->
+    <div class="fc-founders">
+      <div class="fc-founder" style="background-image:url(img/stella.jpg)">
+        <div class="fc-founder-text"><span>Spotlight</span><h4>Dr. Stella Vnook</h4><p>Likarda</p></div>
+      </div>
+      <div class="fc-founder" style="background-image:url(img/lior.jpg)">
+        <div class="fc-founder-text"><span>Spotlight</span><h4>Dr. Lior Shaltiel</h4><p>NurExone</p></div>
+      </div>
+      <div class="fc-founder" style="background-image:url(img/luba.jpg)">
+        <div class="fc-founder-text"><span>Spotlight</span><h4>Luba Perry</h4><p>Reconstruct Bio</p></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="f-quote">
+    <blockquote>"We're not just preparing for the future of medicine, we're manufacturing it."</blockquote>
+    <cite>Dean Kamen</cite>
+  </div>
+
+  <hr class="f-rule">
+
+  <div class="f-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <div class="f-footer">
+    <div class="f-footer-brand">ARMI<p>From Cell to Scale.</p></div>
+    <div class="f-footer-col"><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+    <div class="f-footer-col"><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+    <div class="f-footer-col"><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+    <div class="f-footer-col"><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 2: ARMI (Sequoia-Inspired)
+     Kinetic Storytelling / Editorial Grid
+     ============================================ -->
+<div class="mockup armi-m active" id="armi-mock">
+  <nav class="a-nav">
+    <div class="a-logo">ARMI</div>
+    <div class="a-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('armi-mock',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="a-join">Join Us</a>
+  </nav>
+
+  <div class="a-hero">
+    <h1>We help regenerative medicine builders go from lab to scale.</h1>
+    <p>Breakthroughs don't die in the lab because they don't work. They die because there's nowhere to build them. We're changing that.</p>
+    <div class="a-hero-ctas">
+      <a href="#" class="a-cta-primary">Join the ReGen Revolution</a>
+      <a href="#" class="a-cta-link">Watch the Video &rarr;</a>
+    </div>
+  </div>
+
+  <div class="a-cards">
+
+    <!-- Card 1: BioFab Startup Lab -->
+    <div class="ac ac-startup">
+      <div class="ac-text">
+        <div class="ac-tag">Programs</div>
+        <h3>Go from promising to production-ready.</h3>
+        <p>Join ARMI's hands-on, cohort-based program for seed to Series A founders ready to scale.</p>
+        <div class="ac-ctas">
+          <a href="#" class="ac-btn">Apply Now</a>
+          <a href="#" class="ac-link">Learn more &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Agnos Spotlight -->
+    <div class="ac ac-agnos" style="background-image:url(img/agnos.jpg);background-size:cover;background-position:center">
+      <div class="ac-text">
+        <div class="ac-tag">Spotlight</div>
+        <h3>Agnos Therapeutics. Restoring Sight.</h3>
+        <p>Scaling autologous cell therapy for retinal degeneration.</p>
+        <div class="ac-ctas">
+          <a href="#" class="ac-btn">Read</a>
+          <a href="#" class="ac-link">All Spotlights &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: BioFab Investment Summit -->
+    <div class="ac ac-summit" style="background-image:url(img/summit.jpg);background-size:cover;background-position:center">
+      <div class="ac-text">
+        <div class="ac-tag">Events</div>
+        <h3>3rd Annual BioFab Investment Summit.</h3>
+        <p>November 4-5. Manchester, NH. Where investors meet production-ready founders.</p>
+        <div class="ac-ctas">
+          <a href="#" class="ac-btn">Register</a>
+          <a href="#" class="ac-link">All Events &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: Perspective -->
+    <div class="ac ac-perspective" style="background-image:url(img/reimburse.jpg);background-size:cover;background-position:center">
+      <div class="ac-text">
+        <div class="ac-tag">Perspective</div>
+        <h3>Navigating the Reimbursement Bottleneck.</h3>
+        <p>Why payment strategy can't wait until after your IND.</p>
+        <div class="ac-ctas">
+          <a href="#" class="ac-btn">Read</a>
+          <a href="#" class="ac-link">All Perspectives &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3: Three medium cards -->
+    <div class="ac-row3">
+      <!-- Neural / News -->
+      <div class="ac-sm ac-neural" style="background-image:url(img/neural.jpg);background-size:cover;background-position:center">
+        <div class="ac-text">
+          <div class="ac-tag">News</div>
+          <h3>Cellular Therapy Improves Survival in ALS Patients</h3>
+          <p>NeuroGenesis Research Team</p>
+        </div>
+      </div>
+
+      <!-- Podcast -->
+      <div class="ac-sm ac-pod">
+        <div class="ac-text">
+          <div class="ac-tag">ReGen Podcast</div>
+          <h3>From Prototype to Product</h3>
+          <p>Inside BioFabUSA's manufacturing floor.</p>
+        </div>
+        <div class="ac-vis-zone">
+          <div class="ac-waveform">
+            <div class="ac-bar" style="animation-delay:0s;height:16px"></div>
+            <div class="ac-bar" style="animation-delay:.1s;height:28px"></div>
+            <div class="ac-bar" style="animation-delay:.2s;height:20px"></div>
+            <div class="ac-bar" style="animation-delay:.3s;height:36px"></div>
+            <div class="ac-bar" style="animation-delay:.4s;height:24px"></div>
+            <div class="ac-bar" style="animation-delay:.5s;height:32px"></div>
+            <div class="ac-bar" style="animation-delay:.6s;height:18px"></div>
+            <div class="ac-bar" style="animation-delay:.7s;height:28px"></div>
+            <div class="ac-bar" style="animation-delay:.8s;height:14px"></div>
+            <div class="ac-bar" style="animation-delay:.9s;height:22px"></div>
+            <div class="ac-bar" style="animation-delay:1s;height:30px"></div>
+            <div class="ac-bar" style="animation-delay:1.1s;height:16px"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- $44M News -->
+      <div class="ac-sm ac-news">
+        <div class="ac-text">
+          <div class="ac-tag">News</div>
+          <h3>ARMI Awarded EDA Tech Hub Designation</h3>
+          <p>ReGen Valley recognized nationally.</p>
+        </div>
+        <div class="ac-vis-zone">
+          <div class="ac-big-num">$44M</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 4: Founder portraits -->
+    <div class="ac-founders">
+      <div class="ac-founder" style="background:url(img/stella.jpg) center top/cover no-repeat">
+        <div class="ac-f-overlay" style="background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,0.7))"></div>
+        <div class="ac-f-tag">Spotlight</div>
+        <div class="ac-f-name">Dr. Stella Vnook</div>
+        <div class="ac-f-co">Likarda</div>
+      </div>
+      <div class="ac-founder" style="background:url(img/lior.jpg) center top/cover no-repeat">
+        <div class="ac-f-overlay" style="background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,0.7))"></div>
+        <div class="ac-f-tag">Spotlight</div>
+        <div class="ac-f-name">Dr. Lior Shaltiel</div>
+        <div class="ac-f-co">NurExone</div>
+      </div>
+      <div class="ac-founder" style="background:url(img/luba.jpg) center top/cover no-repeat">
+        <div class="ac-f-overlay" style="background:linear-gradient(180deg,transparent 30%,rgba(0,0,0,0.7))"></div>
+        <div class="ac-f-tag">Spotlight</div>
+        <div class="ac-f-name">Luba Perry</div>
+        <div class="ac-f-co">Reconstruct Bio</div>
+      </div>
+      <div class="ac-founder" style="background:linear-gradient(180deg,#3A7263,#2E5C4F)">
+        <div class="ac-f-overlay" style="background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,0.6))"></div>
+        <div class="ac-f-tag">Spotlight</div>
+        <div class="ac-f-name">SignaLife</div>
+        <div class="ac-f-co">Blood Gas Monitoring</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="a-stats-bar">
+    <div class="a-sbar-item"><div class="a-sbar-num">200+</div><div class="a-sbar-label">Member Organizations</div></div>
+    <div class="a-sbar-item"><div class="a-sbar-num">$2B+</div><div class="a-sbar-label">Raised by Members</div></div>
+    <div class="a-sbar-item"><div class="a-sbar-num">$44M</div><div class="a-sbar-label">EDA Tech Hub</div></div>
+    <div class="a-sbar-item"><div class="a-sbar-num">2M+</div><div class="a-sbar-label">Sq Ft Innovation Corridor</div></div>
+  </div>
+
+  <div class="a-quote">
+    <blockquote>"We're not just preparing for the future of medicine, we're manufacturing it."</blockquote>
+    <cite>Dean Kamen</cite>
+  </div>
+
+  <div style="padding:0 48px">
+    <div class="a-cta-section">
+      <h3>When you're ready to scale, we're ready for you.</h3>
+      <p>Every founder's path is unique. We'll help you chart yours.</p>
+      <a href="#">Schedule an Intro Call</a>
+    </div>
+  </div>
+
+  <div class="a-footer">
+    <div class="a-footer-inner">
+      <div class="a-footer-brand"><div class="a-f-logo">ARMI</div><div class="a-f-tag">From Cell to Scale.</div></div>
+      <div><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+    <div class="a-footer-bottom"><span>ARMI. From Cell to Scale.</span><span>Manchester, NH</span></div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 3: BUILD SIGNAL
+     Mission Control / Data Terminal
+     ============================================ -->
+<div class="mockup signal" id="signal">
+  <nav class="s-nav">
+    <div class="s-logo">ARM<span>I</span></div>
+    <div class="s-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('signal',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="s-join">Join Us</a>
+  </nav>
+
+  <div class="s-ticker"><div class="s-ticker-inner">
+    <span>200+ Member Organizations</span><span class="s-t-accent">*</span>
+    <span>$2B+ Raised by Members</span><span class="s-t-accent">*</span>
+    <span>$44M EDA Tech Hub</span><span class="s-t-accent">*</span>
+    <span>2M+ Sq Ft Innovation Corridor</span><span class="s-t-accent">*</span>
+    <span>Manchester, NH - ReGen Valley</span><span class="s-t-accent">*</span>
+    <span>DoD / HHS / BARDA / NIH / NIST / NSF / FDA</span><span class="s-t-accent">*</span>
+    <span>200+ Member Organizations</span><span class="s-t-accent">*</span>
+    <span>$2B+ Raised by Members</span><span class="s-t-accent">*</span>
+    <span>$44M EDA Tech Hub</span><span class="s-t-accent">*</span>
+    <span>2M+ Sq Ft Innovation Corridor</span><span class="s-t-accent">*</span>
+    <span>Manchester, NH - ReGen Valley</span><span class="s-t-accent">*</span>
+    <span>DoD / HHS / BARDA / NIH / NIST / NSF / FDA</span><span class="s-t-accent">*</span>
+  </div></div>
+
+  <div class="s-hero">
+    <div class="s-hero-inner">
+      <h1>Where Regenerative Medicine <span>Stops Waiting</span> and Starts Scaling</h1>
+      <div class="s-hero-right">
+        <p>Breakthroughs don't die in the lab because they don't work. They die because there's nowhere to build them. We're changing that.</p>
+        <div class="s-cta-row">
+          <a href="#" class="s-cta-red">Scale With Us</a>
+          <a href="#" class="s-cta-outline">Watch Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="s-stats">
+    <div class="s-stat"><div class="s-stat-num">200<span>+</span></div><div class="s-stat-label">Members</div></div>
+    <div class="s-stat"><div class="s-stat-num">$2B<span>+</span></div><div class="s-stat-label">Raised</div></div>
+    <div class="s-stat"><div class="s-stat-num">$44<span>M</span></div><div class="s-stat-label">EDA Tech Hub</div></div>
+    <div class="s-stat"><div class="s-stat-num">2M<span>+</span></div><div class="s-stat-label">Sq Ft Corridor</div></div>
+  </div>
+
+
+  <div class="sc-section">
+    <div class="sc-label">Latest Signals</div>
+
+    <!-- Monitor 1: Agnos -->
+    <div class="sc-monitor">
+      <div class="sc-monitor-bar"><span><span class="sc-dot"></span>Spotlight // Live</span><a href="#" class="sc-action">Read &rarr;</a></div>
+      <div class="sc-monitor-body">
+        <div class="sc-monitor-img" style="background-image:url(img/agnos.jpg)"></div>
+        <div class="sc-monitor-text">
+          <h3>Agnos Therapeutics. Restoring Sight.</h3>
+          <p>Scaling autologous cell therapy for retinal degeneration. From lab proof to manufacturing reality.</p>
+          <a href="#">Read Full Report &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Monitor 2: Reimbursement (flipped) -->
+    <div class="sc-monitor sc-flip">
+      <div class="sc-monitor-bar"><span><span class="sc-dot"></span>Perspective // Analysis</span><a href="#" class="sc-action">Read &rarr;</a></div>
+      <div class="sc-monitor-body">
+        <div class="sc-monitor-img" style="background-image:url(img/reimburse.jpg)"></div>
+        <div class="sc-monitor-text">
+          <h3>Navigating the Reimbursement Bottleneck.</h3>
+          <p>Why payment strategy can't wait until after your IND. The path to patients runs through payers.</p>
+          <a href="#">Read Analysis &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 data cards -->
+    <div class="sc-grid3">
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-image:url(img/summit.jpg)"></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">Events</div>
+          <h4>BioFab Investment Summit</h4>
+          <p>Nov 4-5 &middot; Manchester, NH</p>
+        </div>
+      </div>
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-image:url(img/neural.jpg)"></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">News</div>
+          <h4>Cell Therapy Improves ALS Survival</h4>
+          <p>NeuroGenesis Research Team</p>
+        </div>
+      </div>
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-color:#0F0F0F;filter:none;display:flex;align-items:center;justify-content:center"><div style="font-family:'General Sans',sans-serif;font-size:64px;font-weight:700;color:#222;position:relative;z-index:2">$44<span style='color:#D9534F'>M</span></div></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">News</div>
+          <h4>EDA Tech Hub Designation</h4>
+          <p>ReGen Valley recognized nationally</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Founder row -->
+    <div class="sc-grid3">
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-image:url(img/stella.jpg)"></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">Spotlight</div>
+          <h4>Dr. Stella Vnook</h4>
+          <p>Likarda</p>
+        </div>
+      </div>
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-image:url(img/lior.jpg)"></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">Spotlight</div>
+          <h4>Dr. Lior Shaltiel</h4>
+          <p>NurExone</p>
+        </div>
+      </div>
+      <div class="sc-dcard">
+        <div class="sc-dcard-img" style="background-image:url(img/luba.jpg)"></div>
+        <div class="sc-dcard-text">
+          <div class="sc-dt-label">Spotlight</div>
+          <h4>Luba Perry</h4>
+          <p>Reconstruct Bio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="s-quote">
+    <blockquote>"We're not just preparing for the future of medicine, we're manufacturing it."</blockquote>
+    <cite>Dean Kamen</cite>
+  </div>
+
+  <div class="s-companies">
+    <h2>Companies Scaling with ARMI</h2>
+    <p>Startups that don't just promise progress. They're building it.</p>
+    <div class="s-co-grid">
+      <div class="s-co-card"><h5>Agnos Therapeutics</h5><p>Restoring Sight. Autologous cell therapy for retinal degeneration.</p><div class="s-co-stage">Stage: Series A</div></div>
+      <div class="s-co-card"><h5>SignaLife</h5><p>Continuous, non-invasive blood gas monitoring.</p><div class="s-co-stage">Stage: Growth</div></div>
+      <div class="s-co-card"><h5>NeuroGenesis</h5><p>Autologous cell therapy reversing disability in Progressive MS and ALS.</p><div class="s-co-stage">Stage: Pre-Clinical</div></div>
+      <div class="s-co-card"><h5>FlowCell</h5><p>High-precision perfusion platform enabling scalable vascularized tissue fabrication.</p><div class="s-co-stage">Stage: Seed</div></div>
+    </div>
+  </div>
+
+  <div class="s-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <p>Every founder's path is unique. We'll help you chart yours.</p>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <div class="s-footer">
+    <div class="s-footer-inner">
+      <div class="s-footer-brand">ARM<span>I</span><p>From Cell to Scale. Manchester, NH.</p></div>
+      <div><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+<script src="js/main.js"></script>
+</body>
+</html>
