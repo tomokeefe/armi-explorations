@@ -16,7 +16,7 @@
 .forge{background:#0E0C0A;color:#F5F0E8;font-family:'Plus Jakarta Sans',sans-serif}
 .forge .f-nav{display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(196,114,42,0.15)}
 .forge .f-logo{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:700;color:#C4722A;letter-spacing:2px}
-.forge .f-nav-links{display:flex;gap:32px}
+.forge .f-nav-links{display:flex;align-items:center;gap:32px}
 .forge .f-nav-links a{color:#8A8478;font-size:13px;font-weight:500;text-decoration:none;letter-spacing:.5px;transition:color .3s}
 .forge .f-nav-links a:hover{color:#F5F0E8}
 .forge .f-join{background:#C4722A;color:#0E0C0A;padding:10px 24px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .3s}
@@ -79,7 +79,7 @@
 .armi-m{background:#FAFAF7;color:#1A2332;font-family:'Outfit',sans-serif}
 .armi-m .a-nav{display:flex;align-items:center;justify-content:space-between;padding:18px 48px;background:#fff;border-bottom:1px solid #E8E5DF}
 .armi-m .a-logo{font-family:'Clash Display',sans-serif;font-size:22px;font-weight:700;color:#1A2332;letter-spacing:1px}
-.armi-m .a-nav-links{display:flex;gap:28px}
+.armi-m .a-nav-links{display:flex;align-items:center;gap:28px}
 .armi-m .a-nav-links a{color:#7A7A7A;font-size:14px;font-weight:500;text-decoration:none;transition:color .3s}
 .armi-m .a-nav-links a:hover{color:#1A2332}
 .armi-m .a-join{background:#2E5C4F;color:#fff;padding:10px 24px;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none;transition:all .3s}
@@ -235,7 +235,7 @@
 .signal .s-nav{display:flex;align-items:center;justify-content:space-between;padding:16px 48px;background:#FAFAFA;color:#0F0F0F;border-bottom:1px solid #E0E0E0}
 .signal .s-logo{font-family:'General Sans',sans-serif;font-size:20px;font-weight:700;letter-spacing:3px;text-transform:uppercase}
 .signal .s-logo span{color:#D9534F}
-.signal .s-nav-links{display:flex;gap:28px}
+.signal .s-nav-links{display:flex;align-items:center;gap:28px}
 .signal .s-nav-links a{color:#888;font-size:13px;font-weight:500;text-decoration:none;letter-spacing:.5px;transition:color .3s}
 .signal .s-nav-links a:hover{color:#0F0F0F}
 .signal .s-join{border:1px solid #D9534F;color:#D9534F;padding:8px 20px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .3s}
@@ -727,7 +727,7 @@
 /* ============================================================
    NAVIGATION DROPDOWN
    ============================================================ */
-.nav-dropdown-wrap{position:relative}
+.nav-dropdown-wrap{position:relative;display:flex;align-items:center}
 .nav-dropdown-trigger{cursor:pointer}
 .nav-dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%);min-width:220px;padding:12px 0;opacity:0;visibility:hidden;transition:all .2s;z-index:100;margin-top:12px}
 .nav-dropdown.open{opacity:1;visibility:visible}
