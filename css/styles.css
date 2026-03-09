@@ -9,6 +9,14 @@
 .mockup{display:none;padding-top:52px}
 .mockup.active{display:block}
 
+/* Logo SVG sizing & color handling */
+.f-logo img,.a-logo img,.s-logo img,.ca-logo img{height:44px;width:auto;display:block}
+.armi-m .a-logo img,.signal .s-logo img{filter:brightness(0)}
+.forge.light-mode .f-logo img{filter:brightness(0)}
+.armi-m.dark-mode .a-logo img,.signal.dark-mode .s-logo img{filter:none}
+/* Footer logo sizing */
+.f-footer-brand img,.a-f-logo img,.s-footer-brand img,.ca-footer-brand img{height:30px;width:auto;display:block;margin-bottom:4px}
+
 /* ========================================
    MOCKUP 1: MILLYARD FORGE
    Industrial Editorial
@@ -414,7 +422,7 @@
    ======================================== */
 .current-armi{background:#39206C;color:#fff;font-family:'Plus Jakarta Sans',sans-serif}
 .current-armi .ca-nav{display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(171,160,195,0.15)}
-.current-armi .ca-logo{font-family:'Plus Jakarta Sans',sans-serif;font-size:24px;font-weight:700;color:#fff;letter-spacing:1px}
+.current-armi .ca-logo{font-family:'Plus Jakarta Sans',sans-serif;font-size:24px;font-weight:700;color:#fff;letter-spacing:1px;text-decoration:none}
 .current-armi .ca-nav-links{display:flex;align-items:center;gap:32px}
 .current-armi .ca-nav-links a{color:#ABA0C3;font-size:13px;font-weight:500;text-decoration:none;letter-spacing:.5px;transition:color .3s}
 .current-armi .ca-nav-links a:hover{color:#fff}
