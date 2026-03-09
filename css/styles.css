@@ -408,6 +408,108 @@
 .armi-m .mode-toggle-thumb{background:#2E5C4F}
 .armi-m .mode-toggle-label{color:#7A7A7A}
 
+/* ========================================
+   MOCKUP 4: CURRENT ARMI
+   armiusa.org Brand Palette
+   ======================================== */
+.current-armi{background:#39206C;color:#fff;font-family:'Plus Jakarta Sans',sans-serif}
+.current-armi .ca-nav{display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(171,160,195,0.15)}
+.current-armi .ca-logo{font-family:'Plus Jakarta Sans',sans-serif;font-size:24px;font-weight:700;color:#fff;letter-spacing:1px}
+.current-armi .ca-nav-links{display:flex;align-items:center;gap:32px}
+.current-armi .ca-nav-links a{color:#ABA0C3;font-size:13px;font-weight:500;text-decoration:none;letter-spacing:.5px;transition:color .3s}
+.current-armi .ca-nav-links a:hover{color:#fff}
+.current-armi .ca-join{background:#DC143C;color:#fff;padding:10px 24px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .3s}
+.current-armi .ca-join:hover{background:#E8365A}
+
+.current-armi .ca-hero{padding:120px 48px 80px;max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;position:relative}
+.current-armi .ca-hero::before{content:'';position:absolute;top:20%;left:60%;width:400px;height:400px;background:radial-gradient(circle,rgba(220,20,60,0.12) 0%,transparent 70%);pointer-events:none}
+.current-armi .ca-hero-left h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:64px;font-weight:800;line-height:1.05;color:#fff;letter-spacing:-1px}
+.current-armi .ca-hero-left h1 em{font-style:italic;color:#DC143C}
+.current-armi .ca-hero-right{border-left:1px solid rgba(171,160,195,0.2);padding-left:48px}
+.current-armi .ca-hero-right p{font-size:18px;line-height:1.7;color:#ABA0C3;margin-bottom:32px}
+.current-armi .ca-hero-right .ca-cta-row{display:flex;gap:16px}
+.current-armi .ca-hero-right .ca-cta-primary{background:#DC143C;color:#fff;padding:14px 32px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;display:inline-block;transition:all .3s}
+.current-armi .ca-hero-right .ca-cta-primary:hover{background:#E8365A}
+.current-armi .ca-hero-right .ca-cta-ghost{border:1px solid #fff;color:#fff;padding:14px 32px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;display:inline-block;transition:all .3s}
+.current-armi .ca-hero-right .ca-cta-ghost:hover{background:rgba(255,255,255,0.08)}
+
+.current-armi .ca-rule{border:none;border-top:1px solid rgba(171,160,195,0.15);margin:0 48px}
+.current-armi .ca-rule-thick{border:none;border-top:3px solid #DC143C;margin:0 48px}
+
+.current-armi .ca-stats{display:grid;grid-template-columns:repeat(4,1fr);max-width:1300px;margin:0 auto;padding:48px;background:#39206C}
+.current-armi .ca-stat{text-align:center;padding:32px;border-right:1px solid rgba(171,160,195,0.1)}
+.current-armi .ca-stat:last-child{border-right:none}
+.current-armi .ca-stat-num{font-size:56px;font-weight:700;color:#fff;line-height:1}
+.current-armi .ca-stat-num span{color:#DC143C}
+.current-armi .ca-stat-label{font-size:12px;text-transform:uppercase;letter-spacing:3px;color:#ABA0C3;margin-top:12px}
+
+.current-armi .ca-section{max-width:1300px;margin:0 auto;padding:80px 48px}
+.current-armi .ca-section-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:48px}
+.current-armi .ca-section-header h2{font-size:42px;font-weight:700;line-height:1.1}
+.current-armi .ca-section-header p{color:#ABA0C3;font-size:14px;max-width:400px;text-align:right;line-height:1.6}
+
+.current-armi .ca-stack{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.current-armi .ca-stack-item{background:rgba(255,255,255,0.04);padding:40px 32px;position:relative;overflow:hidden;transition:all .4s}
+.current-armi .ca-stack-item:hover{background:rgba(255,255,255,0.08)}
+.current-armi .ca-stack-item::before{content:'';position:absolute;top:0;left:0;right:0;height:0;background:#DC143C;transition:height .4s}
+.current-armi .ca-stack-item:hover::before{height:3px}
+.current-armi .ca-stack-item .ca-si-num{font-size:11px;color:#DC143C;margin-bottom:16px;letter-spacing:2px;text-transform:uppercase}
+.current-armi .ca-stack-item h4{font-size:22px;font-weight:700;margin-bottom:12px}
+.current-armi .ca-stack-item p{color:#ABA0C3;font-size:14px;line-height:1.7}
+
+.current-armi .ca-quote{max-width:1300px;margin:0 auto;padding:80px 48px;text-align:center;background:#39206C}
+.current-armi .ca-quote blockquote{font-size:36px;font-weight:300;font-style:italic;line-height:1.4;color:#fff;max-width:900px;margin:0 auto 24px}
+.current-armi .ca-quote cite{color:#DC143C;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-style:normal;font-weight:600}
+
+.current-armi .ca-cta-banner{background:#DC143C;padding:60px 48px;text-align:center}
+.current-armi .ca-cta-banner h3{font-size:36px;font-weight:700;color:#fff;margin-bottom:24px}
+.current-armi .ca-cta-banner a{background:#39206C;color:#fff;padding:16px 40px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;display:inline-block;transition:all .3s}
+.current-armi .ca-cta-banner a:hover{background:#4A2D8A}
+
+.current-armi .ca-footer{padding:48px;background:#303030;display:grid;grid-template-columns:1fr repeat(4,auto);gap:48px;max-width:100%;margin:0 auto}
+.current-armi .ca-footer-inner{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1fr repeat(4,auto);gap:48px;width:100%}
+.current-armi .ca-footer-brand{font-size:18px;font-weight:700;color:#fff}
+.current-armi .ca-footer-brand p{font-size:12px;color:#ABA0C3;margin-top:8px}
+.current-armi .ca-footer-col h5{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:#DC143C;margin-bottom:16px}
+.current-armi .ca-footer-col a{display:block;color:#ABA0C3;font-size:13px;text-decoration:none;margin-bottom:8px;transition:color .3s}
+.current-armi .ca-footer-col a:hover{color:#fff}
+
+/* === CURRENT ARMI EDITORIAL CARDS === */
+.current-armi .ca-cards{max-width:1300px;margin:0 auto;padding:0 48px 80px}
+.current-armi .ca-cards-label{font-size:10px;text-transform:uppercase;letter-spacing:3px;color:#DC143C;margin-bottom:32px;padding-top:64px}
+.current-armi .cac-wide{display:grid;grid-template-columns:1fr 1fr;min-height:420px;margin-bottom:2px;position:relative;overflow:hidden}
+.current-armi .cac-wide-img{background-size:cover;background-position:center;position:relative}
+.current-armi .cac-wide-img::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(57,32,108,0.3),transparent)}
+.current-armi .cac-wide-text{background:rgba(255,255,255,0.04);padding:48px;display:flex;flex-direction:column;justify-content:center;border-left:3px solid #DC143C}
+.current-armi .cac-wide-text .cac-num{font-size:10px;color:#DC143C;letter-spacing:2px;margin-bottom:16px;text-transform:uppercase}
+.current-armi .cac-wide-text h3{font-size:32px;font-weight:700;line-height:1.15;color:#fff;margin-bottom:12px}
+.current-armi .cac-wide-text p{color:#ABA0C3;font-size:14px;line-height:1.7;margin-bottom:20px}
+.current-armi .cac-wide-text a{color:#DC143C;font-size:11px;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .3s}
+.current-armi .cac-wide-text a:hover{color:#E8365A}
+.current-armi .cac-wide.cac-flip .cac-wide-img{order:2}
+.current-armi .cac-wide.cac-flip .cac-wide-text{order:1;border-left:none;border-right:3px solid #DC143C}
+.current-armi .cac-row3{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-bottom:2px}
+.current-armi .cac-card{position:relative;min-height:380px;background-size:cover;background-position:center;overflow:hidden;transition:all .4s}
+.current-armi .cac-card:hover{opacity:.92}
+.current-armi .cac-card::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(57,32,108,0.85) 100%);z-index:1}
+.current-armi .cac-card-text{position:absolute;bottom:0;left:0;right:0;padding:28px;z-index:2}
+.current-armi .cac-card-text .cac-label{font-size:9px;text-transform:uppercase;letter-spacing:2px;color:#DC143C;margin-bottom:8px}
+.current-armi .cac-card-text h4{font-size:22px;font-weight:700;color:#fff;line-height:1.2;margin-bottom:4px}
+.current-armi .cac-card-text p{color:#ABA0C3;font-size:12px}
+.current-armi .cac-founders{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.current-armi .cac-founder{min-height:380px;position:relative;background-size:cover;background-position:center top;overflow:hidden;transition:all .4s}
+.current-armi .cac-founder:hover{opacity:.9}
+.current-armi .cac-founder::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(57,32,108,0.85) 100%);z-index:1}
+.current-armi .cac-founder-text{position:absolute;bottom:0;left:0;right:0;padding:24px;z-index:2}
+.current-armi .cac-founder-text span{font-size:9px;text-transform:uppercase;letter-spacing:2px;color:#DC143C;display:block;margin-bottom:6px}
+.current-armi .cac-founder-text h4{font-size:20px;font-weight:700;color:#fff;margin-bottom:2px}
+.current-armi .cac-founder-text p{color:#ABA0C3;font-size:12px}
+
+/* Current ARMI toggle colors */
+.current-armi .mode-toggle-track{background:rgba(220,20,60,0.3)}
+.current-armi .mode-toggle-thumb{background:#DC143C}
+.current-armi .mode-toggle-label{color:#ABA0C3}
+
 /* ============================================================
    LOGO WALL
    ============================================================ */
@@ -439,6 +541,13 @@
 .signal .logo-wall-cta:hover{background:#D9534F;color:#fff}
 .signal .logo-item img{filter:grayscale(1) opacity(.5)}
 .signal .logo-item:hover img{filter:grayscale(0) opacity(1)}
+
+/* Current ARMI logo wall */
+.current-armi .logo-wall h2{font-size:32px;font-weight:700;color:#fff}
+.current-armi .logo-wall-cta{background:#DC143C;color:#fff}
+.current-armi .logo-wall-cta:hover{background:#E8365A}
+.current-armi .logo-item img{filter:brightness(0) invert(.6) sepia(.2) saturate(.3)}
+.current-armi .logo-item:hover img{filter:brightness(0) invert(.9) sepia(.1)}
 
 /* ============================================================
    FORGE LIGHT MODE
@@ -571,6 +680,32 @@
 .signal.dark-mode .logo-item img{filter:brightness(0) invert(.5)}
 .signal.dark-mode .logo-item:hover img{filter:brightness(0) invert(.9)}
 .signal.dark-mode .logo-wall-cta{border-color:#D9534F;color:#D9534F}
+
+/* Current ARMI dark mode */
+.current-armi.dark-mode{background:#141827}
+.current-armi.dark-mode .ca-nav{background:rgba(20,24,39,0.95);border-bottom:1px solid rgba(171,160,195,0.08)}
+.current-armi.dark-mode .ca-nav-links a{color:rgba(171,160,195,0.6)}
+.current-armi.dark-mode .ca-nav-links a:hover{color:#fff}
+.current-armi.dark-mode .ca-hero{color:#fff}
+.current-armi.dark-mode .ca-hero::before{background:radial-gradient(circle,rgba(220,20,60,0.08) 0%,transparent 70%)}
+.current-armi.dark-mode .ca-hero-right{border-color:rgba(171,160,195,0.1)}
+.current-armi.dark-mode .ca-hero-right p{color:rgba(171,160,195,0.6)}
+.current-armi.dark-mode .ca-rule{border-color:rgba(171,160,195,0.08)}
+.current-armi.dark-mode .ca-stats{background:#1E1040}
+.current-armi.dark-mode .ca-stat{border-color:rgba(171,160,195,0.08)}
+.current-armi.dark-mode .ca-stat-label{color:rgba(171,160,195,0.5)}
+.current-armi.dark-mode .ca-section-header p{color:rgba(171,160,195,0.5)}
+.current-armi.dark-mode .ca-stack-item{background:#1E1040}
+.current-armi.dark-mode .ca-stack-item:hover{background:#291650}
+.current-armi.dark-mode .ca-stack-item p{color:rgba(171,160,195,0.5)}
+.current-armi.dark-mode .ca-quote{background:#1E1040}
+.current-armi.dark-mode .ca-quote blockquote{color:rgba(255,255,255,0.9)}
+.current-armi.dark-mode .cac-wide-text{background:#1E1040}
+.current-armi.dark-mode .cac-wide-text p{color:rgba(171,160,195,0.5)}
+.current-armi.dark-mode .ca-footer{background:#0F0F0F}
+.current-armi.dark-mode .logo-wall h2{color:rgba(255,255,255,0.9)}
+.current-armi.dark-mode .logo-item img{filter:brightness(0) invert(.4) sepia(.1)}
+.current-armi.dark-mode .logo-item:hover img{filter:brightness(0) invert(.8)}
 
 /* ============================================================
    RESPONSIVE STYLES
@@ -772,6 +907,64 @@
 }
 
 /* ============================================================
+   CURRENT ARMI RESPONSIVE
+   ============================================================ */
+@media(max-width:1024px){
+  .current-armi .ca-nav{padding:16px 24px}
+  .current-armi .ca-nav-links{gap:20px}
+  .current-armi .ca-nav-links a{font-size:12px}
+  .current-armi .ca-hero{padding:80px 24px 60px;grid-template-columns:1fr;gap:40px}
+  .current-armi .ca-hero-left h1{font-size:48px}
+  .current-armi .ca-hero-right{border-left:none;padding-left:0;border-top:1px solid rgba(171,160,195,0.2);padding-top:32px}
+  .current-armi .ca-stats{grid-template-columns:repeat(2,1fr);padding:32px 24px}
+  .current-armi .ca-rule,.current-armi .ca-rule-thick{margin:0 24px}
+  .current-armi .ca-cards{padding:0 24px 60px}
+  .current-armi .cac-wide{grid-template-columns:1fr;min-height:auto}
+  .current-armi .cac-wide-img{min-height:280px}
+  .current-armi .cac-wide.cac-flip .cac-wide-img{order:0}
+  .current-armi .cac-wide.cac-flip .cac-wide-text{order:1;border-right:none;border-left:3px solid #DC143C}
+  .current-armi .cac-row3{grid-template-columns:1fr 1fr;gap:2px}
+  .current-armi .cac-founders{grid-template-columns:1fr 1fr;gap:2px}
+  .current-armi .ca-section{padding:60px 24px}
+  .current-armi .ca-section-header{flex-direction:column;align-items:flex-start;gap:16px}
+  .current-armi .ca-section-header p{text-align:left}
+  .current-armi .ca-stack{grid-template-columns:repeat(2,1fr)}
+  .current-armi .ca-quote{padding:60px 24px}
+  .current-armi .ca-quote blockquote{font-size:28px}
+  .current-armi .ca-cta-banner{padding:48px 24px}
+  .current-armi .ca-cta-banner h3{font-size:28px}
+  .current-armi .ca-footer-inner{grid-template-columns:1fr 1fr;gap:32px}
+}
+
+@media(max-width:640px){
+  .current-armi .ca-nav-links{display:none}
+  .current-armi .ca-nav{padding:16px 16px}
+  .current-armi .mode-toggle{margin-left:auto}
+  .current-armi .ca-hero{padding:60px 16px 40px}
+  .current-armi .ca-hero-left h1{font-size:36px}
+  .current-armi .ca-hero-right p{font-size:16px}
+  .current-armi .ca-hero-right .ca-cta-row{flex-direction:column}
+  .current-armi .ca-hero-right .ca-cta-primary,.current-armi .ca-hero-right .ca-cta-ghost{text-align:center}
+  .current-armi .ca-stats{grid-template-columns:1fr 1fr;padding:24px 16px}
+  .current-armi .ca-stat-num{font-size:40px}
+  .current-armi .ca-rule,.current-armi .ca-rule-thick{margin:0 16px}
+  .current-armi .ca-cards{padding:0 16px 40px}
+  .current-armi .cac-wide-text{padding:28px 20px}
+  .current-armi .cac-wide-text h3{font-size:24px}
+  .current-armi .cac-row3{grid-template-columns:1fr}
+  .current-armi .cac-founders{grid-template-columns:1fr}
+  .current-armi .ca-section{padding:40px 16px}
+  .current-armi .ca-section-header h2{font-size:32px}
+  .current-armi .ca-stack{grid-template-columns:1fr}
+  .current-armi .ca-quote{padding:40px 16px}
+  .current-armi .ca-quote blockquote{font-size:24px}
+  .current-armi .ca-cta-banner{padding:40px 16px}
+  .current-armi .ca-cta-banner h3{font-size:24px}
+  .current-armi .ca-footer{padding:32px 16px}
+  .current-armi .ca-footer-inner{grid-template-columns:1fr;gap:24px}
+}
+
+/* ============================================================
    NAVIGATION DROPDOWN
    ============================================================ */
 .nav-dropdown-wrap{position:relative;display:flex;align-items:center}
@@ -810,11 +1003,22 @@
 .signal.dark-mode .nav-dropdown a:hover{color:#fff;background:rgba(217,83,79,0.08)}
 .signal.dark-mode .nav-dropdown .dd-divider{background:#333}
 
+/* Current ARMI dropdown */
+.current-armi .nav-dropdown{background:#1E1040;border:1px solid rgba(171,160,195,0.15)}
+.current-armi .nav-dropdown a{color:#ABA0C3;font-size:12px}
+.current-armi .nav-dropdown a:hover{color:#fff;background:rgba(220,20,60,0.08)}
+.current-armi .nav-dropdown .dd-divider{background:rgba(171,160,195,0.15)}
+.current-armi.dark-mode .nav-dropdown{background:#141827;border-color:rgba(171,160,195,0.08)}
+.current-armi.dark-mode .nav-dropdown a{color:rgba(171,160,195,0.6)}
+.current-armi.dark-mode .nav-dropdown a:hover{color:#fff;background:rgba(220,20,60,0.08)}
+.current-armi.dark-mode .nav-dropdown .dd-divider{background:rgba(171,160,195,0.06)}
+
 /* Active page link in dropdown */
 .nav-dropdown a.dd-active{font-weight:700}
 .forge .nav-dropdown a.dd-active{color:#C4722A}
 .armi-m .nav-dropdown a.dd-active{color:#2E5C4F}
 .signal .nav-dropdown a.dd-active{color:#D9534F}
+.current-armi .nav-dropdown a.dd-active{color:#DC143C}
 
 /* ============================================================
    SUB-PAGE SHARED STYLES
@@ -852,6 +1056,13 @@
 .signal .page-hero .page-cta:hover{background:#E06B68}
 .signal.dark-mode .page-hero h1{color:#fff}
 .signal.dark-mode .page-hero .page-sub{color:#888}
+
+/* Current ARMI page hero */
+.current-armi .page-hero h1{font-size:56px;font-weight:800;line-height:1.1;color:#fff}
+.current-armi .page-hero .page-label{color:#DC143C;font-weight:600;letter-spacing:2px}
+.current-armi .page-hero .page-sub{color:#ABA0C3}
+.current-armi .page-hero .page-cta{background:#DC143C;color:#fff}
+.current-armi .page-hero .page-cta:hover{background:#E8365A}
 
 /* --- Feature Grid (3-col, used across sub-pages) --- */
 .feat-grid{max-width:1300px;margin:0 auto;padding:0 48px 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
@@ -903,6 +1114,21 @@
 .signal.dark-mode .feat-item h4{color:#F7F5F2}
 .signal.dark-mode .feat-item p{color:#777}
 
+/* Current ARMI feat grid */
+.current-armi .feat-grid-header h2{font-size:42px;font-weight:700;color:#fff}
+.current-armi .feat-grid-header p{color:#ABA0C3;font-size:14px}
+.current-armi .feat-item{background:rgba(255,255,255,0.04);padding:40px 32px;position:relative;overflow:hidden;transition:all .4s}
+.current-armi .feat-item:hover{background:rgba(255,255,255,0.08)}
+.current-armi .feat-item::before{content:'';position:absolute;top:0;left:0;right:0;height:0;background:#DC143C;transition:height .4s}
+.current-armi .feat-item:hover::before{height:3px}
+.current-armi .feat-item h4{font-size:22px;font-weight:700;margin-bottom:12px;color:#fff}
+.current-armi .feat-item p{color:#ABA0C3;font-size:14px;line-height:1.7}
+.current-armi .feat-item .feat-num{color:#DC143C;font-size:10px;letter-spacing:2px;margin-bottom:16px}
+.current-armi.dark-mode .feat-item{background:#1E1040}
+.current-armi.dark-mode .feat-item:hover{background:#291650}
+.current-armi.dark-mode .feat-item p{color:rgba(171,160,195,0.5)}
+.current-armi.dark-mode .feat-grid-header p{color:rgba(171,160,195,0.5)}
+
 /* --- Who We Work With / Audience Grid (2x2) --- */
 .audience-grid{max-width:1300px;margin:0 auto;padding:0 48px 80px;display:grid;grid-template-columns:1fr 1fr;gap:2px}
 .audience-card{padding:48px 32px;text-align:center;transition:all .3s;text-decoration:none;display:block}
@@ -942,6 +1168,15 @@
 .signal.dark-mode .audience-card h4{color:#F7F5F2}
 .signal.dark-mode .audience-card p{color:#777}
 
+/* Current ARMI audience grid */
+.current-armi .audience-card{background:rgba(255,255,255,0.04)}
+.current-armi .audience-card:hover{background:rgba(255,255,255,0.08)}
+.current-armi .audience-card h4{font-size:22px;font-weight:700;color:#fff}
+.current-armi .audience-card p{color:#ABA0C3;font-size:14px}
+.current-armi .audience-card .aud-link{color:#DC143C;font-size:11px;text-transform:uppercase;letter-spacing:2px}
+.current-armi.dark-mode .audience-card{background:#1E1040}
+.current-armi.dark-mode .audience-card:hover{background:#291650}
+
 /* --- Why Section (centered text block) --- */
 .why-section{max-width:900px;margin:0 auto;padding:80px 48px;text-align:center}
 .why-section h2{margin-bottom:24px}
@@ -966,6 +1201,12 @@
 .signal .why-section .why-bold{color:#0F0F0F}
 .signal.dark-mode .why-section h2{color:#F7F5F2}
 .signal.dark-mode .why-section .why-bold{color:#F7F5F2}
+
+/* Current ARMI why section */
+.current-armi .why-section h2{font-size:42px;font-weight:700;color:#fff}
+.current-armi .why-section p{color:#ABA0C3;font-size:16px}
+.current-armi .why-section .why-bold{color:#fff}
+.current-armi.dark-mode .why-section p{color:rgba(171,160,195,0.5)}
 
 /* --- Testimonial Carousel / Quotes --- */
 .testimonials{max-width:1300px;margin:0 auto;padding:0 48px 80px}
@@ -1010,6 +1251,13 @@
 .signal.dark-mode .testimonial-item blockquote{color:#F7F5F2}
 .signal.dark-mode .tc-prev,.signal.dark-mode .tc-next{color:#D9534F;border-color:#D9534F}
 
+/* Current ARMI carousel */
+.current-armi .tc-prev,.current-armi .tc-next{color:#DC143C;border-color:#DC143C}
+.current-armi .tc-dot{color:#DC143C}
+.current-armi .testimonial-item blockquote{font-weight:300;font-style:italic;color:#fff}
+.current-armi .testimonial-item cite{color:#DC143C;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:600}
+.current-armi.dark-mode .testimonial-item blockquote{color:rgba(255,255,255,0.9)}
+
 /* --- Company Spotlight Grid --- */
 .spotlight-section{max-width:1300px;margin:0 auto;padding:0 48px 80px}
 .spotlight-section .spot-header{text-align:center;margin-bottom:40px}
@@ -1026,6 +1274,14 @@
 .signal .spot-header h2{font-family:'General Sans',sans-serif;font-size:36px;font-weight:700;letter-spacing:-.5px}
 .signal .spot-header p{color:#888;font-size:14px}
 .signal.dark-mode .spot-header h2{color:#F7F5F2}
+
+/* Current ARMI spotlight */
+.current-armi .spot-header h2{font-size:36px;font-weight:700;color:#fff}
+.current-armi .spot-header p{color:#ABA0C3;font-size:14px}
+.current-armi .spot-card{border-radius:0}
+.current-armi .spot-card::before{border-radius:0}
+.current-armi .spot-see-more a{color:#DC143C;font-size:11px;text-transform:uppercase;letter-spacing:2px}
+.current-armi.dark-mode .spot-header h2{color:rgba(255,255,255,0.9)}
 
 .spot-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .spot-card{position:relative;min-height:340px;background-size:cover;background-position:center;overflow:hidden;border-radius:12px;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;cursor:pointer;transition:all .4s}
@@ -1081,6 +1337,13 @@
 .signal.dark-mode .email-signup .es-label{color:#555}
 .signal.dark-mode .email-signup input{background:#1C1C1C;border-color:#333;color:#F7F5F2}
 
+/* Current ARMI email signup */
+.current-armi .email-signup h3{font-size:28px;font-weight:700;color:#fff}
+.current-armi .email-signup .es-label{color:#ABA0C3}
+.current-armi .email-signup input{background:rgba(255,255,255,0.06);border-color:rgba(171,160,195,0.2);color:#fff}
+.current-armi .email-signup button{background:#DC143C;color:#fff}
+.current-armi.dark-mode .email-signup input{background:#1E1040;border-color:rgba(171,160,195,0.1)}
+
 /* --- Action Cards (bottom of sub-pages) --- */
 .action-cards{max-width:1300px;margin:0 auto;padding:0 48px 80px}
 .action-cards-header{text-align:center;margin-bottom:32px}
@@ -1128,6 +1391,17 @@
 .signal.dark-mode .action-card:hover{border-color:#D9534F}
 .signal.dark-mode .action-card p{color:#777}
 
+/* Current ARMI action cards */
+.current-armi .action-cards-header h2{font-size:36px;font-weight:700;color:#fff}
+.current-armi .action-cards-header p{color:#ABA0C3;font-size:14px}
+.current-armi .action-card{background:rgba(255,255,255,0.04)}
+.current-armi .action-card:hover{background:rgba(255,255,255,0.08)}
+.current-armi .action-card p{color:#ABA0C3}
+.current-armi .action-card strong{color:#DC143C;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+.current-armi.dark-mode .action-card{background:#1E1040}
+.current-armi.dark-mode .action-card:hover{background:#291650}
+.current-armi.dark-mode .action-card p{color:rgba(171,160,195,0.5)}
+
 /* --- Promo Banner Card (BioFab Startup Lab, Summit, etc.) --- */
 .promo-banner{max-width:1300px;margin:0 auto;padding:0 48px 40px}
 .promo-banner-inner{position:relative;min-height:420px;background-size:cover;background-position:center;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:48px}
@@ -1154,6 +1428,13 @@
 .signal .promo-banner-inner .pb-action{color:#D9534F}
 .signal .promo-banner-inner h3{font-family:'General Sans',sans-serif;letter-spacing:-.5px}
 .signal.dark-mode .promo-banner-inner{border-color:#333}
+
+/* Current ARMI promo banner */
+.current-armi .promo-banner-inner{border-radius:0}
+.current-armi .promo-banner-inner::before{border-radius:0}
+.current-armi .promo-banner-inner .pb-tag{color:#DC143C}
+.current-armi .promo-banner-inner .pb-action{color:#DC143C}
+.current-armi .promo-banner-inner h3{font-weight:700}
 
 /* --- Process Steps (3-col, for Founders "How it works") --- */
 .process-steps{max-width:1300px;margin:0 auto;padding:0 48px 80px}
@@ -1196,6 +1477,15 @@
 .signal.dark-mode .step-item h4{color:#D9534F}
 .signal.dark-mode .step-item p{color:#777}
 
+/* Current ARMI process steps */
+.current-armi .process-steps-header h2{font-size:36px;font-weight:700;color:#fff}
+.current-armi .process-steps-header p{color:#ABA0C3;font-size:14px}
+.current-armi .step-item{background:rgba(255,255,255,0.04)}
+.current-armi .step-item h4{font-size:20px;font-weight:700;color:#DC143C}
+.current-armi .step-item p{color:#ABA0C3;font-size:14px}
+.current-armi.dark-mode .step-item{background:#1E1040}
+.current-armi.dark-mode .step-item p{color:rgba(171,160,195,0.5)}
+
 /* --- Closing Line --- */
 .closing-line{text-align:center;padding:40px 48px;font-size:16px;line-height:1.6}
 .forge .closing-line{color:#8A8478}
@@ -1204,6 +1494,10 @@
 .armi-m.dark-mode .closing-line{color:rgba(255,255,255,0.4)}
 .signal .closing-line{color:#888}
 .signal.dark-mode .closing-line{color:#555}
+
+/* Current ARMI closing line */
+.current-armi .closing-line{color:#ABA0C3}
+.current-armi.dark-mode .closing-line{color:rgba(171,160,195,0.4)}
 
 /* ============================================================
    SUB-PAGE RESPONSIVE

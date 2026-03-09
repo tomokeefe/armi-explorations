@@ -17,6 +17,7 @@
   <button class="switcher-btn active" onclick="show('forge')">Millyard Forge</button>
   <button class="switcher-btn" onclick="show('armi-mock')">ARMI</button>
   <button class="switcher-btn" onclick="show('signal')">Build Signal</button>
+  <button class="switcher-btn" onclick="show('current-armi')">Current ARMI</button>
 </div>
 
 <!-- ============================================
@@ -617,6 +618,171 @@
       <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
       <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
       <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 4: CURRENT ARMI
+     armiusa.org Brand Palette
+     ============================================ -->
+<div class="mockup current-armi" id="current-armi">
+  <nav class="ca-nav">
+    <div class="ca-logo">ARMI</div>
+    <div class="ca-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('current-armi',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="ca-join">Join Us</a>
+  </nav>
+
+  <div class="ca-hero">
+    <div class="ca-hero-left">
+      <h1>Where Regenerative Medicine Stops Waiting and <em>Starts Scaling</em></h1>
+    </div>
+    <div class="ca-hero-right">
+      <p>Breakthroughs don't die in the lab because they don't work. They die because there's nowhere to build them. We're changing that.</p>
+      <div class="ca-cta-row">
+        <a href="#" class="ca-cta-primary">Join the ReGen Revolution</a>
+        <a href="#" class="ca-cta-ghost">Watch the Video</a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="ca-rule-thick">
+
+  <div class="ca-stats">
+    <div class="ca-stat"><div class="ca-stat-num">200<span>+</span></div><div class="ca-stat-label">Member Organizations</div></div>
+    <div class="ca-stat"><div class="ca-stat-num">$2B<span>+</span></div><div class="ca-stat-label">Raised by Members</div></div>
+    <div class="ca-stat"><div class="ca-stat-num">$44<span>M</span></div><div class="ca-stat-label">EDA Tech Hub</div></div>
+    <div class="ca-stat"><div class="ca-stat-num">2M<span>+</span></div><div class="ca-stat-label">Sq Ft Innovation Corridor</div></div>
+  </div>
+
+  <div class="ca-cards">
+    <div class="ca-cards-label">From the Field</div>
+
+    <!-- Wide card 1: Agnos -->
+    <div class="cac-wide">
+      <div class="cac-wide-img" style="background-image:url(img/agnos.jpg)"></div>
+      <div class="cac-wide-text">
+        <div class="cac-num">Spotlight 01</div>
+        <h3>Agnos Therapeutics. Restoring Sight.</h3>
+        <p>Scaling autologous cell therapy for retinal degeneration. From lab proof to manufacturing reality inside ARMI's BioFabUSA.</p>
+        <a href="#">Read the Story &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Wide card 2: Reimbursement (flipped) -->
+    <div class="cac-wide cac-flip">
+      <div class="cac-wide-img" style="background-image:url(img/reimburse.jpg)"></div>
+      <div class="cac-wide-text">
+        <div class="cac-num">Perspective</div>
+        <h3>Navigating the Reimbursement Bottleneck.</h3>
+        <p>Why payment strategy can't wait until after your IND. The path to patients runs through payers.</p>
+        <a href="#">Read &rarr;</a>
+      </div>
+    </div>
+
+    <!-- 3-col row: Summit, Neural, Podcast -->
+    <div class="cac-row3">
+      <div class="cac-card" style="background-image:url(img/summit.jpg)">
+        <div class="cac-card-text">
+          <div class="cac-label">Events</div>
+          <h4>3rd Annual BioFab Investment Summit</h4>
+          <p>Nov 4-5 &middot; Manchester, NH</p>
+        </div>
+      </div>
+      <div class="cac-card" style="background-image:url(img/neural.jpg)">
+        <div class="cac-card-text">
+          <div class="cac-label">News</div>
+          <h4>Cellular Therapy Improves Survival in ALS Patients</h4>
+          <p>NeuroGenesis Research Team</p>
+        </div>
+      </div>
+      <div class="cac-card" style="background-color:#1E1040">
+        <div class="cac-card-text" style="bottom:auto;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+          <div class="cac-label">ReGen Podcast</div>
+          <h4>From Prototype to Product</h4>
+          <p>Inside BioFabUSA's manufacturing floor</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Founders -->
+    <div class="cac-founders">
+      <div class="cac-founder" style="background-image:url(img/stella.jpg)">
+        <div class="cac-founder-text"><span>Spotlight</span><h4>Dr. Stella Vnook</h4><p>Likarda</p></div>
+      </div>
+      <div class="cac-founder" style="background-image:url(img/lior.jpg)">
+        <div class="cac-founder-text"><span>Spotlight</span><h4>Dr. Lior Shaltiel</h4><p>NurExone</p></div>
+      </div>
+      <div class="cac-founder" style="background-image:url(img/luba.jpg)">
+        <div class="cac-founder-text"><span>Spotlight</span><h4>Luba Perry</h4><p>Reconstruct Bio</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ca-quote">
+    <blockquote>"We're not just preparing for the future of medicine, we're manufacturing it."</blockquote>
+    <cite>Dean Kamen</cite>
+  </div>
+
+  <hr class="ca-rule">
+
+  <!-- Logo Wall -->
+  <div class="logo-wall">
+    <h2>Featured Members</h2>
+    <div class="logo-grid">
+      <div class="logo-item"><img src="img/logos/3m.webp" alt="3M"></div>
+      <div class="logo-item"><img src="img/logos/abbott.webp" alt="Abbott"></div>
+      <div class="logo-item"><img src="img/logos/alley.webp" alt="Alley"></div>
+      <div class="logo-item"><img src="img/logos/amazon.webp" alt="Amazon"></div>
+      <div class="logo-item"><img src="img/logos/american_airlines.webp" alt="American Airlines"></div>
+      <div class="logo-item"><img src="img/logos/apple.webp" alt="Apple"></div>
+      <div class="logo-item"><img src="img/logos/bank_of_america.webp" alt="Bank of America"></div>
+      <div class="logo-item"><img src="img/logos/cvs.webp" alt="CVS"></div>
+      <div class="logo-item"><img src="img/logos/homedepot.webp" alt="Home Depot"></div>
+      <div class="logo-item"><img src="img/logos/nike.webp" alt="Nike"></div>
+    </div>
+    <a href="#" class="logo-wall-cta">Become a Member</a>
+  </div>
+
+  <hr class="ca-rule">
+
+  <div class="ca-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <div class="ca-footer">
+    <div class="ca-footer-inner">
+      <div class="ca-footer-brand">ARMI<p>From Cell to Scale.</p></div>
+      <div class="ca-footer-col"><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div class="ca-footer-col"><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div class="ca-footer-col"><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div class="ca-footer-col"><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
     </div>
   </div>
 </div>

@@ -17,6 +17,7 @@
   <button class="switcher-btn active" onclick="show('forge')">Millyard Forge</button>
   <button class="switcher-btn" onclick="show('armi-mock')">ARMI</button>
   <button class="switcher-btn" onclick="show('signal')">Build Signal</button>
+  <button class="switcher-btn" onclick="show('current-armi')">Current ARMI</button>
 </div>
 
 <!-- ============================================
@@ -498,6 +499,168 @@
       <div><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
       <div><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
       <div><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     MOCKUP 4: CURRENT ARMI
+     ============================================ -->
+<div class="mockup current-armi" id="current-armi">
+  <nav class="ca-nav">
+    <div class="ca-logo">ARMI</div>
+    <div class="ca-nav-links">
+      <div class="nav-dropdown-wrap">
+        <a href="#" class="nav-dropdown-trigger">What We Offer</a>
+        <div class="nav-dropdown">
+          <a href="scale-with-us.html" class="dd-active">Scale With Us</a>
+          <div class="dd-divider"></div>
+          <a href="founders.html">Founders</a>
+          <a href="investors.html">Investors</a>
+          <a href="pharma.html">Pharma</a>
+          <a href="government.html">Government</a>
+          <div class="dd-divider"></div>
+          <a href="biofabusa.html">BioFabUSA</a>
+          <a href="biofab-consulting.html">BioFab Consulting</a>
+          <a href="bio-industries.html">Bio Industries</a>
+          <a href="biofab.html">BioFab</a>
+        </div>
+      </div>
+      <a href="#">Builders</a>
+      <a href="#">Latest</a>
+      <a href="#">About</a>
+      <a href="#">Members</a>
+    </div>
+    <div class="mode-toggle">
+      <span class="mode-toggle-label">Dark</span>
+      <label class="mode-toggle-switch"><input type="checkbox" onchange="toggleMode('current-armi',this.checked)"><div class="mode-toggle-track"></div><div class="mode-toggle-thumb"></div></label>
+    </div>
+    <a href="#" class="ca-join">Join Us</a>
+  </nav>
+
+  <!-- Hero -->
+  <div class="page-hero">
+    <div class="page-label">What We Offer</div>
+    <h1>Scale With Us.</h1>
+    <p class="page-sub">ARMI is the national launchpad for regenerative medicine. You've built something that works in the lab. Now you need the infrastructure, systems, and support to move from prototype to production, faster.</p>
+  </div>
+
+  <hr class="ca-rule">
+
+  <!-- ReGen Stack -->
+  <div class="feat-grid-header">
+    <h2>The ReGen Stack</h2>
+    <p>Our full-stack commercialization platform. From prototype to production.</p>
+  </div>
+  <div class="feat-grid">
+    <div class="feat-item"><h4>Manufacturing Infrastructure</h4><p>GMP facilities. Closed, automated systems. Real production support. Not promises or PDFs.</p></div>
+    <div class="feat-item"><h4>Regulatory &amp; Reimbursement</h4><p>IND prep, FDA alignment, payment strategy. Built-in guidance, not guesswork.</p></div>
+    <div class="feat-item"><h4>Startup Scale-up Programs</h4><p>BioFab Startup Lab. Mentorship, cohort support, and investor visibility.</p></div>
+    <div class="feat-item"><h4>Capital Readiness</h4><p>Get capital-ready. Investor summits, private briefings, and introductions to aligned funds.</p></div>
+    <div class="feat-item"><h4>Talent &amp; Workforce</h4><p>Hire from our FDA-ready apprenticeship pipeline, or train your own inside ARMI.</p></div>
+    <div class="feat-item"><h4>Community &amp; Network</h4><p>200+ member organizations. 10+ federal agencies. ReGen Valley at your back.</p></div>
+  </div>
+
+  <hr class="ca-rule">
+
+  <!-- Who We Work With -->
+  <div class="feat-grid-header">
+    <h2>Who We Work With</h2>
+  </div>
+  <div class="audience-grid">
+    <a href="founders.html" class="audience-card">
+      <div class="aud-icon">&#9881;</div>
+      <h4>Founders</h4>
+      <p>Building cell, tissue, or organ-based therapies, biotools and enabling technologies.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="pharma.html" class="audience-card">
+      <div class="aud-icon">&#9650;</div>
+      <h4>Startups &amp; Biotechs</h4>
+      <p>Preparing to scale or submit.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="investors.html" class="audience-card">
+      <div class="aud-icon">$</div>
+      <h4>Investors</h4>
+      <p>Looking to de-risk and accelerate.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+    <a href="government.html" class="audience-card">
+      <div class="aud-icon">&#9733;</div>
+      <h4>Government</h4>
+      <p>Advancing readiness and access.</p>
+      <span class="aud-link">Learn More &rarr;</span>
+    </a>
+  </div>
+
+  <!-- Why ARMI -->
+  <div class="why-section">
+    <h2>Why ARMI?</h2>
+    <p>We believe in outcomes over ideas.</p>
+    <p>We're not a CRO. We're not a think tank.</p>
+    <p class="why-bold">We're the connective tissue between discovery and delivery. Between science and scale.</p>
+    <p>If you're building something too important to stall, you're in the right place.</p>
+  </div>
+
+  <hr class="ca-rule">
+
+  <!-- Quote -->
+  <div class="ca-quote">
+    <blockquote>"You don't need another demo day. You need a place to scale."</blockquote>
+    <cite>Dean Kamen</cite>
+  </div>
+
+  <hr class="ca-rule">
+
+  <!-- Ready to Build -->
+  <div class="action-cards">
+    <div class="action-cards-header">
+      <h2>Ready to Build?</h2>
+    </div>
+    <div class="action-grid">
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9679;</div>
+        <p>Become a Member</p>
+        <strong>Join ARMI &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9650;</div>
+        <p>Apply to the BioFab Startup Lab</p>
+        <strong>Apply Now &rarr;</strong>
+      </a>
+      <a href="#" class="action-card">
+        <div class="act-icon">&#9881;</div>
+        <p>Submit for a Scale Readiness Assessment</p>
+        <strong>Get Started &rarr;</strong>
+      </a>
+    </div>
+  </div>
+
+  <!-- Email Signup -->
+  <div class="email-signup">
+    <div class="es-label">Join our mailing list</div>
+    <h3>Get the stories and updates from the ARMI Community</h3>
+    <form onsubmit="return false">
+      <input type="email" placeholder="Email Address">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- CTA Banner -->
+  <div class="ca-cta-banner">
+    <h3>When you're ready to scale, we're ready for you.</h3>
+    <a href="#">Schedule an Intro Call</a>
+  </div>
+
+  <!-- Footer -->
+  <div class="ca-footer">
+    <div class="ca-footer-inner">
+      <div class="ca-footer-brand">ARMI<p>From Cell to Scale.</p></div>
+      <div class="ca-footer-col"><h5>What We Offer</h5><a href="scale-with-us.html">Scale With Us</a><a href="biofabusa.html">BioFabUSA</a><a href="biofab-consulting.html">BioFab Consulting</a><a href="founders.html">BioFab Startup Lab</a></div>
+      <div class="ca-footer-col"><h5>Builders</h5><a href="founders.html">Founders</a><a href="#">Companies</a><a href="#">ReGen 100</a><a href="investors.html">Investors</a></div>
+      <div class="ca-footer-col"><h5>Latest</h5><a href="#">Spotlights</a><a href="#">News</a><a href="#">Events</a><a href="#">ReGen Podcast</a></div>
+      <div class="ca-footer-col"><h5>About</h5><a href="#">About Us</a><a href="#">Ethos</a><a href="#">Careers</a><a href="#">Contact</a></div>
     </div>
   </div>
 </div>

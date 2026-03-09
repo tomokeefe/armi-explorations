@@ -3,7 +3,7 @@ function show(id){
   document.querySelectorAll('.mockup').forEach(m=>m.classList.remove('active'));
   document.querySelectorAll('.switcher-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  var map={'forge':0,'armi-mock':1,'signal':2};
+  var map={'forge':0,'armi-mock':1,'signal':2,'current-armi':3};
   var btns=document.querySelectorAll('.switcher-btn');
   if(btns[map[id]])btns[map[id]].classList.add('active');
   window.scrollTo(0,0);
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',function(){
     document.querySelectorAll('.mockup').forEach(m=>m.classList.remove('active'));
     document.querySelectorAll('.switcher-btn').forEach(b=>b.classList.remove('active'));
     document.getElementById(saved).classList.add('active');
-    var map={'forge':0,'armi-mock':1,'signal':2};
+    var map={'forge':0,'armi-mock':1,'signal':2,'current-armi':3};
     var btns=document.querySelectorAll('.switcher-btn');
     if(btns[map[saved]])btns[map[saved]].classList.add('active');
   }
@@ -32,6 +32,8 @@ function toggleMode(mockupId, isOn) {
   } else if (mockupId === 'signal') {
     el.classList.toggle('dark-mode', isOn);
   } else if (mockupId === 'armi-mock') {
+    el.classList.toggle('dark-mode', isOn);
+  } else if (mockupId === 'current-armi') {
     el.classList.toggle('dark-mode', isOn);
   }
 }
