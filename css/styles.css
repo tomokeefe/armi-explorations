@@ -409,6 +409,38 @@
 .armi-m .mode-toggle-label{color:#7A7A7A}
 
 /* ============================================================
+   LOGO WALL
+   ============================================================ */
+.logo-wall{max-width:1300px;margin:0 auto;padding:60px 48px;text-align:center}
+.logo-wall h2{margin-bottom:40px}
+.logo-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:24px 32px;align-items:center;justify-items:center;margin-bottom:40px}
+.logo-item{display:flex;align-items:center;justify-content:center;padding:16px;opacity:.7;transition:opacity .3s}
+.logo-item:hover{opacity:1}
+.logo-item img{max-width:120px;max-height:48px;width:auto;height:auto;object-fit:contain}
+.logo-wall-cta{display:inline-block;padding:12px 32px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;transition:all .3s}
+
+/* Forge logo wall */
+.forge .logo-wall h2{font-family:'Fraunces',Georgia,serif;font-size:32px;font-weight:700;color:#F5F0E8}
+.forge .logo-wall-cta{background:#C4722A;color:#0E0C0A}
+.forge .logo-wall-cta:hover{background:#E08C3A}
+.forge .logo-item img{filter:brightness(0) invert(.7) sepia(.2) saturate(.5)}
+.forge .logo-item:hover img{filter:brightness(0) invert(.9) sepia(.3) saturate(.8)}
+
+/* ARMI logo wall */
+.armi-m .logo-wall h2{font-family:'Clash Display',sans-serif;font-size:32px;font-weight:600;color:#1A2332}
+.armi-m .logo-wall-cta{background:#2E5C4F;color:#fff;border-radius:6px}
+.armi-m .logo-wall-cta:hover{background:#3A7466}
+.armi-m .logo-item img{filter:grayscale(1) opacity(.6)}
+.armi-m .logo-item:hover img{filter:grayscale(0) opacity(1)}
+
+/* Signal logo wall */
+.signal .logo-wall h2{font-family:'General Sans',sans-serif;font-size:28px;font-weight:700;color:#0F0F0F;letter-spacing:-.5px}
+.signal .logo-wall-cta{border:1px solid #D9534F;color:#D9534F}
+.signal .logo-wall-cta:hover{background:#D9534F;color:#fff}
+.signal .logo-item img{filter:grayscale(1) opacity(.5)}
+.signal .logo-item:hover img{filter:grayscale(0) opacity(1)}
+
+/* ============================================================
    FORGE LIGHT MODE
    Dark (#0E0C0A) → Light (#F5F0E8)
    Cream text (#F5F0E8) → Dark text (#2D2A26)
@@ -434,6 +466,9 @@
 .forge.light-mode .f-quote{background:transparent}
 .forge.light-mode .f-quote blockquote{color:#2D2A26}
 .forge.light-mode .f-cta-banner{background:#C4722A}
+.forge.light-mode .logo-wall h2{color:#2D2A26}
+.forge.light-mode .logo-item img{filter:grayscale(1) opacity(.5)}
+.forge.light-mode .logo-item:hover img{filter:grayscale(0) opacity(1)}
 .forge.light-mode .f-footer{background:#2D2A26;color:#F5F0E8}
 
 /* Forge light mode cards */
@@ -529,6 +564,13 @@
 .armi-m.dark-mode .ac-news p{color:rgba(255,255,255,0.5)}
 .armi-m.dark-mode .ac-news .ac-big-num{color:#4ECDC4}
 .armi-m.dark-mode .ac-pod{background:#0F1923}
+.armi-m.dark-mode .logo-wall h2{color:#fff}
+.armi-m.dark-mode .logo-item img{filter:brightness(0) invert(.6) sepia(.1)}
+.armi-m.dark-mode .logo-item:hover img{filter:brightness(0) invert(.9) sepia(.2)}
+.signal.dark-mode .logo-wall h2{color:#F7F5F2}
+.signal.dark-mode .logo-item img{filter:brightness(0) invert(.5)}
+.signal.dark-mode .logo-item:hover img{filter:brightness(0) invert(.9)}
+.signal.dark-mode .logo-wall-cta{border-color:#D9534F;color:#D9534F}
 
 /* ============================================================
    RESPONSIVE STYLES
@@ -569,9 +611,14 @@
   .forge .f-cta-banner{padding:48px 24px}
   .forge .f-cta-banner h3{font-size:28px}
   .forge .f-footer{padding:32px 24px;grid-template-columns:1fr 1fr;gap:32px}
+  .logo-wall{padding:48px 24px}
 }
 
 @media(max-width:640px){
+  .logo-grid{grid-template-columns:repeat(3,1fr);gap:16px 24px}
+  .logo-item img{max-width:90px;max-height:36px}
+  .logo-wall{padding:40px 16px}
+  .logo-wall h2{font-size:24px !important;margin-bottom:28px}
   .forge .f-nav-links{display:none}
   .forge .f-nav{padding:16px 16px}
   .forge .mode-toggle{margin-left:auto}
